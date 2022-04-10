@@ -1,0 +1,26 @@
+.glass{
+  min-width: 300px;
+  width: 30vw;
+  height: 80vh;
+  background: rgba(222, 222, 222, 0.02);
+  border: 1px solid rgba(226, 226, 226, 0.50);
+  box-sizing: border-box;
+  backdrop-filter: blur(100px);
+/* Note: backdrop-filter has minimal browser support */
+  border-radius: 20px;
+  padding: 20px;
+  color: white;
+  position: relative;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.glassInput{
+  background-color: rgba(255, 255, 255, 0.22) ;
+  padding: 6px 12px;
+  border-radius: 99px;
+  width: 100%;
+  font-size: 14px;
+}
